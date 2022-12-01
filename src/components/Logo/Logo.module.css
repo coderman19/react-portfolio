@@ -1,0 +1,14 @@
+.LogoType {
+  display: block;
+}
+
+.logo {
+  color: var(--white);
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  margin-right: auto;
+}
+
+.logo strong {
+  font-weight: 700;
+}
