@@ -14,8 +14,7 @@
 /* styles */
 
 html, body {
-  display: flex;
-  flex-direction: column;
+
   min-height: 100vh;
 
   font-family: 'DM Sans', sans-serif;
@@ -29,8 +28,16 @@ html, body {
 
   --project-card-bg: var(--black);
   --project-card-text: var(--white);
+}
 
+#root {
+  min-height: 100vh;
+}
 
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .container {
